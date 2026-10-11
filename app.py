@@ -1,7 +1,8 @@
 """TerraQuest: The AI Forager. Run:  python app.py   then open the printed URL (phone on the same Wi-Fi works)."""
 import os
 import gradio as gr
-
+import threading
+from forager import vision
 from forager.graph import build_graph, new_session
 
 graph = build_graph()
@@ -69,5 +70,6 @@ with gr.Blocks(css=CSS, title="TerraQuest: The AI Forager", theme=gr.themes.Base
     go.click(submit, [state, img], outs)
     skipb.click(skip, state, outs)
 
+threading.Thread(target=vision._classifier, daemon=True).start()  # warm up in background
 if __name__ == "__main__":
         demo.launch(server_name="0.0.0.0", server_port=int(os.getenv("PORT", 7860)))

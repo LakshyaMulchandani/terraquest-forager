@@ -9,7 +9,9 @@ graph = build_graph()
 CSS = """
 .gradio-container{max-width:560px!important;margin:auto}
 .bounty{background:#e6ebdf;color:#1c2a22;border-radius:20px;padding:18px}
-.bounty h2{margin:0 0 6px;font-size:22px}.bounty p{margin:0;color:#566659}
+.bounty h2{margin:0 0 6px;font-size:22px;color:#1f5a35 !important}
+.bounty p{margin:0;color:#566659 !important}
+.msg,.msg *{color:#1c2a22 !important}
 .pill{display:inline-block;background:#e5a11a;color:#1c2a22;border-radius:99px;padding:2px 12px;font-weight:700;margin-right:6px}
 .v-pass{border-left:8px solid #2e6b45}.v-fail{border-left:8px solid #b4472d}.v-unsure{border-left:8px solid #8a8f7a}
 .msg{background:#e6ebdf;color:#1c2a22;border-radius:16px;padding:14px;margin-top:8px;font-size:17px;white-space:pre-wrap}

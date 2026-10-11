@@ -23,13 +23,13 @@ def bounty_html(s):
     if not b:
         return ""
     return (f"<div class='bounty'><span class='pill'>Score {s.get('score', 0)}</span><span class='pill'>Streak {s.get('streak', 0)}</span>"
-            f"<h2 style='margin-top:10px'>Find: {b['text']}</h2><p>{b['hint']}</p></div>")
+            f"<h2 style='margin:10px 0 6px;color:#1f5a35 !important'>Find: {b['text']}</h2>"
+            f"<p style='margin:0;color:#566659 !important'>{b['hint']}</p></div>")
 
 
 def msg_html(s):
     v = (s.get("verdict") or {}).get("verdict", "")
-    return f"<div class='msg v-{v}'>{s.get('message', '')}</div>"
-
+    return f"<div class='msg v-{v}' style='color:#1c2a22 !important'>{s.get('message', '')}</div>"
 
 def rows(s):
     return [[t["species"], t["family"] or "unknown", f"{t['score']:.0%}", "yes" if t.get("fits") else "no"] for t in s.get("taxa", [])]

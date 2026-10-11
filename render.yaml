@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: terraquest-forager
+    runtime: python
+    plan: standard        # 2 GB RAM; free/starter will probably run out of memory
+    buildCommand: pip install -r requirements-render.txt && PYTHONPATH=. python scripts/prefetch.py
+    startCommand: python app.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: HF_HOME
+        value: /opt/render/project/src/.hf

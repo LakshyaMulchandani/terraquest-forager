@@ -1,0 +1,245 @@
+{
+"Urtica": {
+"weed": true,
+"leaf_margin": "serrated",
+"compound_leaf": false,
+"habit": "herb"
+},
+"Ageratum": {
+"weed": true,
+"leaf_margin": "serrated",
+"compound_leaf": false,
+"habit": "herb"
+},
+"Bidens": {
+"weed": true,
+"leaf_margin": "serrated",
+"compound_leaf": true,
+"habit": "herb"
+},
+"Lamium": {
+"weed": true,
+"leaf_margin": "serrated",
+"compound_leaf": false,
+"habit": "herb"
+},
+"Lantana": {
+"weed": true,
+"leaf_margin": "serrated",
+"compound_leaf": false,
+"habit": "shrub"
+},
+"Taraxacum": {
+"weed": true,
+"leaf_margin": "lobed",
+"compound_leaf": false,
+"habit": "herb"
+},
+"Parthenium": {
+"weed": true,
+"leaf_margin": "lobed",
+"compound_leaf": false,
+"habit": "herb"
+},
+"Chenopodium": {
+"weed": true,
+"leaf_margin": "lobed",
+"compound_leaf": false,
+"habit": "herb"
+},
+"Euphorbia": {
+"weed": true,
+"leaf_margin": "entire",
+"compound_leaf": false,
+"habit": "herb"
+},
+"Amaranthus": {
+"weed": true,
+"leaf_margin": "entire",
+"compound_leaf": false,
+"habit": "herb"
+},
+"Commelina": {
+"weed": true,
+"leaf_margin": "entire",
+"compound_leaf": false,
+"habit": "herb"
+},
+"Portulaca": {
+"weed": true,
+"leaf_margin": "entire",
+"compound_leaf": false,
+"habit": "herb"
+},
+"Oxalis": {
+"weed": true,
+"leaf_margin": "entire",
+"compound_leaf": true,
+"habit": "herb"
+},
+"Mimosa": {
+"weed": true,
+"leaf_margin": "entire",
+"compound_leaf": true,
+"habit": "herb"
+},
+"Calotropis": {
+"weed": true,
+"leaf_margin": "entire",
+"compound_leaf": false,
+"habit": "shrub"
+},
+"Cynodon": {
+"weed": true,
+"leaf_margin": "entire",
+"compound_leaf": false,
+"habit": "grass"
+},
+"Paspalum": {
+"weed": true,
+"leaf_margin": "entire",
+"compound_leaf": false,
+"habit": "grass"
+},
+"Brachiaria": {
+"weed": true,
+"leaf_margin": "entire",
+"compound_leaf": false,
+"habit": "grass"
+},
+"Echinochloa": {
+"weed": true,
+"leaf_margin": "entire",
+"compound_leaf": false,
+"habit": "grass"
+},
+"Dactyloctenium": {
+"weed": true,
+"leaf_margin": "entire",
+"compound_leaf": false,
+"habit": "grass"
+},
+"Rubus": {
+"weed": false,
+"leaf_margin": "serrated",
+"compound_leaf": true,
+"habit": "shrub"
+},
+"Rosa": {
+"weed": false,
+"leaf_margin": "serrated",
+"compound_leaf": true,
+"habit": "shrub"
+},
+"Fragaria": {
+"weed": false,
+"leaf_margin": "serrated",
+"compound_leaf": true,
+"habit": "herb"
+},
+"Potentilla": {
+"weed": false,
+"leaf_margin": "serrated",
+"compound_leaf": true,
+"habit": "herb"
+},
+"Prunus": {
+"weed": false,
+"leaf_margin": "serrated",
+"compound_leaf": false,
+"habit": "tree"
+},
+"Malus": {
+"weed": false,
+"leaf_margin": "serrated",
+"compound_leaf": false,
+"habit": "tree"
+},
+"Mentha": {
+"weed": false,
+"leaf_margin": "serrated",
+"compound_leaf": false,
+"habit": "herb"
+},
+"Azadirachta": {
+"weed": false,
+"leaf_margin": "serrated",
+"compound_leaf": true,
+"habit": "tree"
+},
+"Hibiscus": {
+"weed": false,
+"leaf_margin": "serrated",
+"compound_leaf": false,
+"habit": "shrub"
+},
+"Ficus": {
+"weed": false,
+"leaf_margin": "entire",
+"compound_leaf": false,
+"habit": "tree"
+},
+"Mangifera": {
+"weed": false,
+"leaf_margin": "entire",
+"compound_leaf": false,
+"habit": "tree"
+},
+"Tectona": {
+"weed": false,
+"leaf_margin": "entire",
+"compound_leaf": false,
+"habit": "tree"
+},
+"Shorea": {
+"weed": false,
+"leaf_margin": "entire",
+"compound_leaf": false,
+"habit": "tree"
+},
+"Syzygium": {
+"weed": false,
+"leaf_margin": "entire",
+"compound_leaf": false,
+"habit": "tree"
+},
+"Psidium": {
+"weed": false,
+"leaf_margin": "entire",
+"compound_leaf": false,
+"habit": "tree"
+},
+"Moringa": {
+"weed": false,
+"leaf_margin": "entire",
+"compound_leaf": true,
+"habit": "tree"
+},
+"Tamarindus": {
+"weed": false,
+"leaf_margin": "entire",
+"compound_leaf": true,
+"habit": "tree"
+},
+"Terminalia": {
+"weed": false,
+"leaf_margin": "entire",
+"compound_leaf": false,
+"habit": "tree"
+},
+"Madhuca": {
+"weed": false,
+"leaf_margin": "entire",
+"compound_leaf": false,
+"habit": "tree"
+},
+"Pinus": {
+"habit": "tree"
+},
+"Nerium": {
+"weed": false,
+"leaf_margin": "entire",
+"compound_leaf": false,
+"habit": "shrub"
+}
+}

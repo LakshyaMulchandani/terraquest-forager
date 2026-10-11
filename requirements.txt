@@ -1,0 +1,7 @@
+gradio>=4.44
+transformers>=4.44
+torch
+pillow
+langgraph>=0.2.28
+langchain-ollama>=0.2
+pytest
